@@ -1,0 +1,25 @@
+.modal-input
+{
+    border:1px solid #A9A9A9;
+    border-radius: 6px;
+}
+.modal-input:focus
+{
+    border:1px solid #002F87;
+    outline: none;
+}
+.modal-submit
+{
+    background-color: #002F87;
+    color:white;
+    border-radius: 6px;
+    border:1px solid  #002F87;
+}
+.modal-submit:focus
+{
+    outline: none;
+}
+.footer-text
+{
+    font-size: .6rem;
+}

@@ -1,0 +1,14 @@
+.main-topic
+{
+    border-bottom: 2px solid #707070;
+    font-size: 2rem;
+    color:#033285;
+    cursor: pointer;
+}
+.questions .partners-text
+{
+    background-color: #E3EDF3;
+    color:#033285;
+    cursor: pointer;
+    font-size: 1.3rem;
+}

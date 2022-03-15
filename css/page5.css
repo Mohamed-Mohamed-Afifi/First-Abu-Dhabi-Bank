@@ -1,0 +1,42 @@
+.first-location
+{
+    background-color: #002F87;
+}
+.right-location .first-location:first-of-type
+{
+    color:white;
+}
+.right-location .first-location:nth-of-type(2)
+{
+    background-color: white;
+    border-left: 3px solid #002F87;
+    color:black;
+    font-weight: normal;
+}
+.right-location .first-location:nth-of-type(3),.right-location .first-location:nth-of-type(4),.right-location .first-location:nth-of-type(5)
+{
+    background-color: #A3A3A3;
+    color:white;
+}
+.card-img
+{
+    position: relative;
+}
+.card-over-head,.card-over-sub-head,.card-over-logo
+{
+    z-index: 500;
+    color:white;
+}
+.location-content
+{
+    border-bottom:2px solid #A3A3A3 ;
+}
+.partners2-content
+{
+    background-color: #A3C7D2;
+    color:white;
+}
+.active-page
+{
+    color:#002F87;
+}

@@ -1,0 +1,250 @@
+/*background of nav bar*/
+*
+{
+    font-family: 'Philosopher', sans-serif;
+}
+.bg-light
+{
+    background-color: #6F6F6F!important;
+    opacity: 0.89;
+}
+.banner
+{
+    position: relative;
+    padding: 100px 0 150px;
+    background-image: url('https://k.top4top.io/p_17596ysdm1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.banner-heading 
+{
+    font-size: 1.2rem;
+}
+.banner-sub-heading 
+{
+    font-size: 1.3rem;
+}
+header
+{
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.left_btn
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px 5px;
+    color: #003087;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+}
+.right_btn
+{
+    background: #002F87 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px 5px;
+    color:#FFFFFF;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+}
+.right_btn:hover,.left_btn:hover,.right_btn:focus,.left_btn:focus
+{
+    outline: none;
+}
+.right_btn:hover
+{
+    background-color: #002f87c7;
+}
+.left_btn:hover
+{
+    background-color:#ffffffd9;
+}
+.nav-item
+{  
+    padding:10px;
+    color:white;
+}
+.nav-link
+{
+    color:white!important;
+}
+.breadcrumb
+{
+    font-size: 1.1rem;
+}
+.breadcrumb-item+.breadcrumb-item::before
+{
+    content:'';
+    padding-right: 0;
+}
+.breadcrumb-item,.breadcrumb-item a
+{
+   
+    color:#AFAFAF!important;
+    cursor: pointer;
+}
+.breadcrumb-item,.breadcrumb-item a:hover
+{
+    text-decoration: none;
+}
+.breadcrumb-item a:hover,.prev-page:hover
+{
+    color:#002F87!important;
+    transition: all .35s ease-in-out;
+}
+.partners-content
+{
+    background-color: #002F87;
+}
+.right-content-heading
+{
+    color:white;
+    font-size: 1.2rem;
+}
+.right-content-sub-heading
+{
+    color:#A8A8A8;
+    font-size: 1rem;
+}
+.search-icon
+{
+    color:#8D8D8D;
+    font-size: 1.3rem;
+}
+.search-box
+{
+    border: 1px solid transparent;
+}
+.search-box:focus
+{
+    border: 1px solid #002F87;
+    outline: 0;
+    transition: all .35s ease-in-out;
+}
+.search-icons
+{
+    cursor: pointer;
+}
+.search-topics button:first-of-type
+{
+    background-color: #7EACFF!important;
+    box-shadow: 0px 3px 6px #00000029;
+    border:2px solid #7EACFF;
+}
+.search-topics button:nth-of-type(2),.search-topics button:nth-of-type(3),.search-topics button:nth-of-type(4),.search-topics button:nth-of-type(5)
+{
+    box-shadow: 0px 3px 6px #0000003d;
+    background-color: white;
+    border:2px solid white;
+    color:#000000;
+}
+.image-container
+{
+    position: relative;
+}
+.min-photo
+{
+    position:absolute;
+    left: 16px;
+    top: 16px;
+}
+.card-sub-text:hover
+{
+    cursor: pointer;
+}
+.cards-part .card-text
+{
+    color:#4C4D54!important;
+}
+.cards-part .card-sub-text
+{
+    color:#002F87;
+}
+.cards-part .card-sub-text .fa
+{
+    color:#DA291C;
+}
+.left-content .a
+{
+    fill: white;
+}
+.cards-part .card
+{
+    box-shadow: 0px 3px 6px #0000001f;
+    border: none;
+}
+.close
+{
+    position: absolute;
+    right:16px;
+    top:5px;
+    font-size: 3rem;
+}
+.close:focus
+{
+    outline: none;
+}
+.modal-heading
+{
+    font-size: 1.2rem;
+    color:#002F87;
+}
+.modal-sub-heading
+{
+    font-size: .9rem;
+    color:#333;
+}
+.overlayer
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.banner-text
+{
+    z-index: 500;
+}
+.search-topics .btn
+{
+    font-size: 1.2rem;
+}
+.cards-part .card-text
+{
+    font-size: 1.3rem;
+}
+.cards-part .card-sub-text
+{
+    font-size: .9rem;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) 
+{ 
+    html
+    {
+        font-size: 12px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{     html
+    {
+        font-size: 12px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

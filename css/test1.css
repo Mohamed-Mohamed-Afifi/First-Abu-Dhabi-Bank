@@ -1,0 +1,36 @@
+.logo1
+{
+    background: transparent radial-gradient(closest-side at 102% 50%, #FFD400 0%, #F8A30B 20%, #F27515 41%, #ED531D 61%, #EB3E22 77%, #EA3724 87%) 0% 0% no-repeat padding-box;
+    width: 14px;
+    height: 8px;
+}
+.logo2
+{
+    background: transparent radial-gradient(closest-side at 102% 101%, #FFD400 0%, #F8A30B 21%, #F27515 45%, #ED531D 66%, #EB3E22 83%, #EA3724 94%) 0% 0% no-repeat padding-box;
+    width: 39px;
+height: 22px;
+}
+.logo3
+{
+    background: transparent radial-gradient(closest-side at 99% 100%, #FFD400 0%, #F8A30B 22%, #F27515 47%, #ED531D 70%, #EB3E22 88%, #EA3724 100%) 0% 0% no-repeat padding-box;
+    width: 15px;
+height: 28px;
+}
+.logo4
+{
+    background: transparent radial-gradient(closest-side at 48% 100%, #FFD400 0%, #F8A30B 22%, #F27515 47%, #ED531D 70%, #EB3E22 88%, #EA3724 100%) 0% 0% no-repeat padding-box;
+    width: 9px;
+height: 24px;
+}
+.logo5
+{
+    background: transparent radial-gradient(closest-side at 2% 100%, #FFD400 0%, #F8A30B 22%, #F27515 47%, #ED531D 70%, #EB3E22 88%, #EA3724 100%) 0% 0% no-repeat padding-box;
+    width: 11px;
+height: 17px;
+}
+.logo6
+{
+    background: transparent radial-gradient(closest-side at 0% 94%, #FFD400 0%, #F8A30B 22%, #F27515 47%, #ED531D 70%, #EB3E22 88%, #EA3724 100%) 0% 0% no-repeat padding-box;
+    width: 14px;
+height: 8px;
+}
